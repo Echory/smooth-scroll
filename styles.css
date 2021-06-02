@@ -31,7 +31,7 @@
 
 #navbar_logo{
     background-color: aquamarine;
-    background-image: linear-gradient(to top, #ff0844 0%, #cbe6da 100%);
+    background-image: linear-gradient(to top, #ff0844 0%, #895abf  100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -84,7 +84,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: purple;
+    background: rgb(169, 78, 215);
     color: white;
 }
 
@@ -214,7 +214,7 @@
 
 .hero_description{
     font-size: 60px;
-    color: purple;
+    color: rgb(169, 78, 215);
 }
 
 .highlight{
@@ -229,4 +229,36 @@
     .hero_description {
       font-size: 40px;
     }
-  }
+}
+
+.main{
+    background-color: black;
+    color:white;
+    padding: 10rem 0;
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main_content h1{
+   font-size: 2 rem; 
+   background-color: aquamarine;
+   background-image: linear-gradient(to top, #ff0844 0%, #895abf 100%);
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   text-transform: uppercase;
+   margin-bottom: 32px;
+}
